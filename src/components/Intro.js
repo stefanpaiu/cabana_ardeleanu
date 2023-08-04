@@ -30,19 +30,19 @@ const Intro = () => {
                     <div>
                         <h3 className= "font-black mb-8 text-lg text-gray-600 lg:text-2xl">Cazare</h3>
                         <FontAwesomeIcon icon={faBed} size="2xl" className="text-highlight" />
-                        <p className="sm:my-8 font-normal text-paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className="my-6 font-normal text-paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <Carousel images = {lodgeImages} className="flex justify-center items-center"/>
                     </div>
                     <div>
                         <h3 className= "font-black mb-8 text-lg text-gray-600 lg:text-2xl">Natură</h3>
                         <FontAwesomeIcon icon={faTree} size="2xl" className="text-highlight"  />
-                        <p className="sm:my-8 font-normal text-paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className="my-6 font-normal text-paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <Carousel images = {natureImages} className="flex justify-center items-center"/>
                     </div>
                     <div>
                         <h3 className= "font-black mb-8 text-lg text-gray-600 lg:text-2xl">Bear Safari</h3>
                         <FontAwesomeIcon icon={faCampground} size="2xl" className="text-highlight" />
-                        <p className="sm:my-8 font-normal text-paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className="my-6 font-normal text-paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <Carousel images = {safariImages} className="flex justify-center items-center"/>
                     </div>
                 </div>
